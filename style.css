@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: inter;
+}
+
+.header h1 {
+    margin-bottom: 15px;
+}
+
+.header h3 {
+	margin-top:10px;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.left ul, .right ul {
+    line-height: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+    }
+}
